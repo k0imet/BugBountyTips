@@ -1,3 +1,4 @@
 ## Commom XSS parameters
 
 - ?dest=
+- ?configUrl=
