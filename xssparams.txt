@@ -5,3 +5,4 @@
 - ?win=
 - ?vsid=
 - ?utm_source=
+- ?terminalid=
