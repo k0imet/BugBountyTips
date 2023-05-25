@@ -2,3 +2,4 @@
 
 - ?dest=
 - ?configUrl=
+- ?win=
