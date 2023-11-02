@@ -6,3 +6,4 @@
 - ?vsid=
 - ?utm_source=
 - ?terminalid=
+- ?redirectUrl=
